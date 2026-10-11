@@ -88,3 +88,19 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Hide Netlify injected Drawer, Badge & Popups */
+#netlify-drawer,
+netlify-drawer,
+[data-netlify-drawer],
+.netlify-badge,
+iframe#netlify-drawer-frame,
+iframe[src*="netlify-drawer"],
+iframe[id*="netlify"],
+div[data-netlify-deploy-id] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
