@@ -28,7 +28,7 @@ export function HomepageFacultyRoadmap() {
               <h2 className="font-serif-display text-3xl sm:text-4xl font-normal text-[#0B1B2B]">
                 {isHindi ? 'प्रतिष्ठित संकाय व शोधकर्ता' : 'Mentors Dedicated to Intellectual Agency'}
               </h2>
-              <p className="text-sm sm:text-base text-[#526071] leading-relaxed">
+              <p className="text-sm sm:text-base text-[#2E384D] leading-relaxed">
                 {isHindi
                   ? 'हमारे शिक्षक केवल पाठ्यक्रम नहीं पढ़ाते; वे छात्रों में स्वतंत्र सोच, शोध की प्रवृत्ति और बौद्धिक ईमानदारी विकसित करते हैं।'
                   : 'Faculty at H-12 are active researchers, writers, and mentors who champion deep inquiry and compassionate character.'}
@@ -68,7 +68,7 @@ export function HomepageFacultyRoadmap() {
                       <p className="text-xs font-semibold text-[#C89B3C] uppercase tracking-wider">
                         {isHindi ? member.roleHi : member.role}
                       </p>
-                      <p className="text-xs text-[#526071] line-clamp-2 pt-1">
+                      <p className="text-xs text-[#2E384D] line-clamp-2 pt-1">
                         {isHindi ? member.bioHi : member.bio}
                       </p>
                     </div>

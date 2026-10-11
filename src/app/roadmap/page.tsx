@@ -54,7 +54,7 @@ export default function RoadmapPage() {
         );
       default:
         return (
-          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-[#526071]/10 border border-[#526071]/30 text-[#526071] text-[11px] font-bold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-[#2E384D]/10 border border-[#2E384D]/30 text-[#2E384D] text-[11px] font-bold uppercase tracking-wider">
             <Milestone className="w-3 h-3" />
             {t.statusVision}
           </span>
@@ -153,7 +153,7 @@ export default function RoadmapPage() {
                         <span className="px-3 py-1 bg-[#0B1B2B] text-[#C89B3C] font-mono text-xs font-bold uppercase tracking-wider">
                           {milestone.year} · {milestone.quarter}
                         </span>
-                        <Badge variant="subtle" className="border-[#E2DAD0] text-[#526071] text-xs">
+                        <Badge variant="subtle" className="border-[#E2DAD0] text-[#2E384D] text-xs">
                           {isHindi ? milestone.phaseHi : milestone.phase}
                         </Badge>
                       </div>
@@ -164,7 +164,7 @@ export default function RoadmapPage() {
                       <h2 className="text-xl sm:text-2xl font-serif font-bold text-[#0B1B2B]">
                         {isHindi ? milestone.titleHi : milestone.title}
                       </h2>
-                      <p className="text-sm text-[#526071] leading-relaxed">
+                      <p className="text-sm text-[#2E384D] leading-relaxed">
                         {isHindi ? milestone.summaryHi : milestone.summary}
                       </p>
 

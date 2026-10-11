@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             <h1 className="font-serif-display text-4xl sm:text-5xl font-normal text-[#0B1B2B]">
               Privacy Policy & Client Customization Notice
             </h1>
-            <p className="text-sm text-[#526071]">
+            <p className="text-sm text-[#2E384D]">
               Last updated: October 11, 2026 · Governing illustrative demo operations
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
               <p>
                 When connecting this starter to a live production database or CRM (such as Salesforce Education Cloud, HubSpot, or school management software):
               </p>
-              <ul className="list-disc pl-5 space-y-2 text-[#526071]">
+              <ul className="list-disc pl-5 space-y-2 text-[#2E384D]">
                 <li>Implement TLS 1.3 encryption across all API routes.</li>
                 <li>Ensure data minimization principles by only requesting necessary inquiry fields.</li>
                 <li>Obtain affirmative parental consent prior to processing inquiries for children under 18.</li>

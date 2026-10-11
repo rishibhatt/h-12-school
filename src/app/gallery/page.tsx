@@ -28,7 +28,7 @@ export default function GalleryPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'परिसर, अध्ययन एवं दैनिक जीवन' : 'A Documentary Window into Daily Life'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'हमारे अध्ययन कक्षों, कला दीर्घाओं, प्रयोगशालाओं और खेल के मैदानों का प्रामाणिक छायाचित्र संकलन।'
                 : 'Explore high-resolution photography documenting laboratory investigations, architectural reading carrels, ceramic studios, and competitive athletics across H-12 School.'}

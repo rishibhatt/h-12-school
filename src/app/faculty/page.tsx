@@ -168,7 +168,7 @@ export default function FacultyPage() {
                       <p className="text-xs font-semibold text-[#C89B3C] uppercase tracking-wider">
                         {isHindi ? member.roleHi : member.role}
                       </p>
-                      <p className="text-xs text-[#526071] leading-relaxed pt-1">
+                      <p className="text-xs text-[#2E384D] leading-relaxed pt-1">
                         {isHindi ? member.bioHi : member.bio}
                       </p>
                     </div>
@@ -179,7 +179,7 @@ export default function FacultyPage() {
                         <GraduationCap className="w-3.5 h-3.5 text-[#C89B3C] shrink-0 mt-0.5" />
                         <span className="font-medium">{isHindi ? member.degreesHi : member.degrees}</span>
                       </div>
-                      <div className="flex items-center gap-2 text-[#526071]">
+                      <div className="flex items-center gap-2 text-[#2E384D]">
                         <BookOpen className="w-3.5 h-3.5 text-[#2D5547] shrink-0" />
                         <span>{member.almaMater}</span>
                       </div>
@@ -202,7 +202,7 @@ export default function FacultyPage() {
               <h3 className="text-xl lg:text-2xl font-serif font-bold text-[#0B1B2B]">
                 {isHindi ? 'हमारे संकाय से मिलें' : 'Speak Directly with Our Academic Faculty'}
               </h3>
-              <p className="text-xs sm:text-sm text-[#526071] leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#2E384D] leading-relaxed">
                 {isHindi
                   ? 'परिसर भ्रमण के दौरान विभाग प्रमुखों और शिक्षकों से सीधे संवाद करें और पाठ्यक्रम को समझें।'
                   : 'Open Morning tours include breakout conversations with division deans and laboratory chairs.'}

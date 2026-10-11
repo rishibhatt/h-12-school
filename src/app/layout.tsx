@@ -6,6 +6,7 @@ import { Header } from '@/components/organisms/Header';
 import { Footer } from '@/components/organisms/Footer';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { GsapScrollProgress } from '@/components/motion/GsapScrollProgress';
+import { PortfolioFloater } from '@/components/organisms/PortfolioFloater';
 
 const playfair = Playfair_Display({
   variable: '--font-serif',
@@ -69,6 +70,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <PortfolioFloater />
         </LocaleProvider>
       </body>
     </html>

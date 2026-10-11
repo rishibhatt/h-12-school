@@ -49,7 +49,7 @@ export function StageCard({ stage, index, isHindi = false }: StageCardProps) {
             {tagline}
           </p>
 
-          <ul className="space-y-2 mb-6 border-t border-[#E2DAD0] pt-4 text-xs text-[#526071]">
+          <ul className="space-y-2 mb-6 border-t border-[#E2DAD0] pt-4 text-xs text-[#2E384D]">
             {overview.slice(0, 3).map((item, i) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-[#C89B3C] font-bold shrink-0">·</span>

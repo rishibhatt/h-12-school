@@ -25,15 +25,15 @@ export function NavLink({
   const isLight = variant === 'light';
 
   const baseStyles =
-    'relative py-1 text-sm tracking-wide font-medium transition-colors select-none';
+    'relative py-1 text-sm tracking-wide font-medium transition-colors select-none focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-[#C89B3C] rounded-xs';
 
   const colorStyles = isLight
     ? isActive
-      ? 'text-[#C89B3C]'
+      ? 'text-[#C89B3C] font-semibold'
       : 'text-[#FAF7F2] hover:text-[#C89B3C]'
     : isActive
-    ? 'text-[#0B1B2B] font-semibold'
-    : 'text-[#526071] hover:text-[#0B1B2B]';
+    ? 'text-[#0B1B2B] font-bold'
+    : 'text-[#1E293B] hover:text-[#0B1B2B]';
 
   return (
     <Link
@@ -45,10 +45,7 @@ export function NavLink({
       {children}
       {isActive && (
         <span
-          className={cn(
-            'absolute bottom-0 left-0 right-0 h-0.5',
-            isLight ? 'bg-[#C89B3C]' : 'bg-[#0B1B2B]'
-          )}
+          className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#C89B3C]"
           aria-hidden="true"
         />
       )}

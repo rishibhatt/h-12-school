@@ -10,7 +10,7 @@ interface LogoProps {
 export function Logo({ className = '', variant = 'dark', collapsed = false }: LogoProps) {
   const isLight = variant === 'light';
   const textColor = isLight ? 'text-[#FAF7F2]' : 'text-[#0B1B2B]';
-  const subtextColor = isLight ? 'text-[#C89B3C]' : 'text-[#526071]';
+  const subtextColor = isLight ? 'text-[#C89B3C]' : 'text-[#2E384D]';
   const emblemBorder = isLight ? '#C89B3C' : '#0B1B2B';
   const emblemFill = isLight ? '#112538' : '#FAF7F2';
   const letterColor = isLight ? '#FAF7F2' : '#0B1B2B';

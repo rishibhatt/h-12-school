@@ -49,7 +49,7 @@ export function AcademicStageView({ stage, prevStage, nextStage }: AcademicStage
             <p className="text-sm font-semibold uppercase tracking-wider text-[#C89B3C]">
               {tagline}
             </p>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {description}
             </p>
           </div>
@@ -94,7 +94,7 @@ export function AcademicStageView({ stage, prevStage, nextStage }: AcademicStage
                       <h3 className="font-serif-display text-lg font-normal text-[#0B1B2B] mb-1">
                         {isHindi ? feat.titleHi : feat.title}
                       </h3>
-                      <p className="text-xs text-[#526071] leading-relaxed">
+                      <p className="text-xs text-[#2E384D] leading-relaxed">
                         {isHindi ? feat.detailHi : feat.detail}
                       </p>
                     </div>
@@ -130,7 +130,7 @@ export function AcademicStageView({ stage, prevStage, nextStage }: AcademicStage
                       <span className="font-mono text-[#C89B3C] font-semibold shrink-0">
                         {slot.time}
                       </span>
-                      <span className="text-[#526071] text-right">
+                      <span className="text-[#2E384D] text-right">
                         {isHindi ? slot.activityHi : slot.activity}
                       </span>
                     </div>

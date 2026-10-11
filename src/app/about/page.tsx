@@ -56,7 +56,7 @@ export default function AboutPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'जिज्ञासा, अनुशासन व चरित्र की शिक्षा' : 'The Pursuit of Truth, Rigor & Character'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'एच-12 स्कूल 1988 से बौद्धिक अनुशासन और सहानुभूतिपूर्ण सहभागिता के साथ छात्रों को जीवन भर के अध्ययन के लिए तैयार करता आ रहा है।'
                 : 'Founded on the conviction that genuine education develops both sharp analytical intellect and moral responsibility, H-12 School provides a structured continuum from early childhood through university preparation.'}
@@ -78,7 +78,7 @@ export default function AboutPage() {
                   ? 'ज्ञान केवल सूचना नहीं, बल्कि समझ और अनुप्रयोग है'
                   : 'Knowledge is Not Merely Received; It is Examined, Tested & Applied'}
               </h2>
-              <div className="space-y-4 text-sm text-[#526071] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#2E384D] leading-relaxed">
                 <p>
                   {isHindi
                     ? 'हम पाठ्यपुस्तकों को अंतिम सत्य मानने के बजाय छात्रों को साक्ष्यों की जांच करने, प्राथमिक स्रोतों को पढ़ने और अपनी परिकल्पनाओं का परीक्षण करने के लिए प्रेरित करते हैं।'
@@ -126,7 +126,7 @@ export default function AboutPage() {
             <h2 className="font-serif-display text-3xl sm:text-4xl font-normal text-[#0B1B2B]">
               {isHindi ? 'अनुभवी शिक्षकों का मार्गदर्शन' : 'Scholars & Stewards of the Institution'}
             </h2>
-            <p className="text-xs sm:text-sm text-[#526071]">
+            <p className="text-xs sm:text-sm text-[#2E384D]">
               {isHindi
                 ? 'हमारे शिक्षक अपने विषय के विशेषज्ञ होने के साथ-साथ समर्पित परामर्शदाता भी हैं। (प्रदर्शन हेतु काल्पनिक प्रोफाइल)'
                 : 'Faculty leadership combining decades of preparatory scholarship and dedicated pastoral care. (Illustrative fictional profiles for demonstration).'}
@@ -149,7 +149,7 @@ export default function AboutPage() {
                   <p className="text-xs font-mono uppercase tracking-wider text-[#C89B3C] mb-4 font-semibold">
                     {isHindi ? leader.roleHi : leader.role}
                   </p>
-                  <p className="text-xs text-[#526071] leading-relaxed">
+                  <p className="text-xs text-[#2E384D] leading-relaxed">
                     {isHindi ? leader.bioHi : leader.bio}
                   </p>
                 </div>
@@ -166,7 +166,7 @@ export default function AboutPage() {
             <h2 className="font-serif-display text-2xl sm:text-3xl font-normal text-[#0B1B2B]">
               {isHindi ? 'हमसे व्यक्तिगत रूप से मिलें' : 'Experience Our Learning Community in Person'}
             </h2>
-            <p className="text-xs sm:text-sm text-[#526071]">
+            <p className="text-xs sm:text-sm text-[#2E384D]">
               {isHindi
                 ? 'परिसर का प्रत्यक्ष भ्रमण करें और हमारे संकाय से संवाद करें।'
                 : 'Join our scheduled Open Mornings or book a guided weekday campus discovery walk.'}

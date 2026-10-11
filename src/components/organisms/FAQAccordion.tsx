@@ -44,7 +44,7 @@ export function FAQAccordion({ items, isHindi = false }: FAQAccordionProps) {
             </button>
 
             {isOpen && (
-              <div className="pt-3 pb-1 text-xs sm:text-sm text-[#526071] leading-relaxed max-w-3xl animate-in fade-in duration-200">
+              <div className="pt-3 pb-1 text-xs sm:text-sm text-[#2E384D] leading-relaxed max-w-3xl animate-in fade-in duration-200">
                 <p>{answer}</p>
               </div>
             )}

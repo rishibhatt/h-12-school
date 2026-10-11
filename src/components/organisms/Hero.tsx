@@ -35,7 +35,7 @@ export function Hero() {
             </GsapReveal>
 
             <GsapReveal direction="up" delay={0.25}>
-              <p className="text-base sm:text-lg text-[#526071] leading-relaxed max-w-xl font-normal">
+              <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed max-w-xl font-normal">
                 {t.description}
               </p>
             </GsapReveal>
@@ -59,7 +59,7 @@ export function Hero() {
                   <span className="block font-mono text-2xl sm:text-3xl font-bold text-[#0B1B2B]">
                     1:12
                   </span>
-                  <span className="text-[11px] text-[#526071] uppercase tracking-wider">
+                  <span className="text-[11px] text-[#2E384D] uppercase tracking-wider">
                     {t.ratioLabel}
                   </span>
                 </div>
@@ -67,7 +67,7 @@ export function Hero() {
                   <span className="block font-mono text-2xl sm:text-3xl font-bold text-[#0B1B2B]">
                     36
                   </span>
-                  <span className="text-[11px] text-[#526071] uppercase tracking-wider">
+                  <span className="text-[11px] text-[#2E384D] uppercase tracking-wider">
                     {t.campusLabel}
                   </span>
                 </div>
@@ -75,7 +75,7 @@ export function Hero() {
                   <span className="block font-mono text-2xl sm:text-3xl font-bold text-[#0B1B2B]">
                     K–12
                   </span>
-                  <span className="text-[11px] text-[#526071] uppercase tracking-wider">
+                  <span className="text-[11px] text-[#2E384D] uppercase tracking-wider">
                     {t.stageLabel}
                   </span>
                 </div>
@@ -113,7 +113,7 @@ export function Hero() {
                       </span>
                       <span>1988</span>
                     </div>
-                    <p className="text-[11px] text-[#526071] leading-tight">
+                    <p className="text-[11px] text-[#2E384D] leading-tight">
                       {isHindi
                         ? '36 एकड़ में फैला अध्ययन प्रांगण, विज्ञान प्रयोगशालाएं एवं पुस्तकालय।'
                         : 'Thirty-six acres of dedicated science wings, libraries, and open courtyards.'}
@@ -126,7 +126,7 @@ export function Hero() {
         </div>
 
         {/* Subtle Scroll Cue */}
-        <div className="pt-12 flex items-center justify-between border-t border-[#E2DAD0] mt-12 text-xs text-[#526071]">
+        <div className="pt-12 flex items-center justify-between border-t border-[#E2DAD0] mt-12 text-xs text-[#2E384D]">
           <div className="flex items-center gap-2">
             <Compass className="w-3.5 h-3.5 text-[#C89B3C]" />
             <span>{isHindi ? 'नीचे स्क्रॉल करके अन्वेषण करें' : 'Scroll to discover curriculum & admissions'}</span>

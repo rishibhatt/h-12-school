@@ -64,7 +64,7 @@ export default function CampusLifePage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'सीखने, सृजन एवं खेलकूद का समृद्ध संसार' : 'An Architecture for Discovery, Craft & Fellowship'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? '36 एकड़ का हमारा परिसर एक जीवंत समुदाय है जहाँ छात्र केवल अध्ययन नहीं करते, बल्कि कला, खेल और सामाजिक उत्तरदायित्व में भी अग्रणी रहते हैं।'
                 : 'Thirty-six wooded acres planned as an academic village. Daily life at H-12 balances rigorous classroom scholarship with physical conditioning, fine craftsmanship, and student-led initiatives.'}
@@ -94,7 +94,7 @@ export default function CampusLifePage() {
                     <h2 className="font-serif-display text-2xl sm:text-3xl font-normal text-[#0B1B2B]">
                       {isHindi ? fac.titleHi : fac.title}
                     </h2>
-                    <p className="text-sm text-[#526071] leading-relaxed">
+                    <p className="text-sm text-[#2E384D] leading-relaxed">
                       {isHindi ? fac.descHi : fac.desc}
                     </p>
                   </div>
@@ -127,7 +127,7 @@ export default function CampusLifePage() {
             <h2 className="font-serif-display text-3xl font-normal text-[#0B1B2B]">
               {isHindi ? 'रुचियों एवं नेतृत्व का विस्तार' : 'Student-Led Clubs & Societies'}
             </h2>
-            <p className="text-xs sm:text-sm text-[#526071]">
+            <p className="text-xs sm:text-sm text-[#2E384D]">
               {isHindi
                 ? 'कक्षा के बाद छात्र विभिन्न साहित्यिक, वैज्ञानिक एवं सामाजिक गतिविधियों में भाग लेते हैं।'
                 : 'Every scholar participates in at least one student society each term to cultivate initiative and teamwork.'}
@@ -139,7 +139,7 @@ export default function CampusLifePage() {
               <h3 className="font-serif-display text-lg text-[#0B1B2B] mb-2">
                 {isHindi ? 'सुकराती वाद-विवाद सभा' : 'Socratic Debate Society'}
               </h3>
-              <p className="text-xs text-[#526071] leading-relaxed">
+              <p className="text-xs text-[#2E384D] leading-relaxed">
                 {isHindi
                   ? 'संसदीय वाद-विवाद और ऐतिहासिक नीतिगत विषयों पर साक्ष्य-आधारित चर्चा।'
                   : 'Weekly competitive debate training scholars in logic, parliamentary procedure, and persuasive rhetoric.'}
@@ -149,7 +149,7 @@ export default function CampusLifePage() {
               <h3 className="font-serif-display text-lg text-[#0B1B2B] mb-2">
                 {isHindi ? 'रोबोटिक्स व कम्प्यूटेशन गिल्ड' : 'Applied Robotics Guild'}
               </h3>
-              <p className="text-xs text-[#526071] leading-relaxed">
+              <p className="text-xs text-[#2E384D] leading-relaxed">
                 {isHindi
                   ? 'माइक्रोकंट्रोलर प्रोग्रामिंग, सेंसर इंटीग्रेशन और स्वचालित प्रणाली निर्माण।'
                   : 'Hands-on hardware fabrication, micro-controller programming, and regional engineering challenges.'}
@@ -159,7 +159,7 @@ export default function CampusLifePage() {
               <h3 className="font-serif-display text-lg text-[#0B1B2B] mb-2">
                 {isHindi ? 'चैंबर ऑर्केस्ट्रा व संगीत' : 'Chamber Music Ensemble'}
               </h3>
-              <p className="text-xs text-[#526071] leading-relaxed">
+              <p className="text-xs text-[#2E384D] leading-relaxed">
                 {isHindi
                   ? 'शास्त्रीय संगीत, स्ट्रिंग चौकड़ी और सामुदायिक संगीत समारोह।'
                   : 'Vocal and instrumental classical performance ensembles performing at term exhibitions and regional festivals.'}
@@ -176,7 +176,7 @@ export default function CampusLifePage() {
             <h2 className="font-serif-display text-2xl sm:text-3xl font-normal text-[#0B1B2B]">
               {isHindi ? 'परिसर को प्रत्यक्ष देखें' : 'Tour Our Studios and Labs'}
             </h2>
-            <p className="text-xs sm:text-sm text-[#526071]">
+            <p className="text-xs sm:text-sm text-[#2E384D]">
               {isHindi
                 ? 'ओपन मॉर्निंग में भाग लें या अपनी व्यक्तिगत परिसर यात्रा निर्धारित करें।'
                 : 'Join our scheduled Open Mornings or book a guided weekday campus walk.'}

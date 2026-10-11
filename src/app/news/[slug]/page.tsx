@@ -74,7 +74,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
             <h1 className="font-serif-display text-3xl sm:text-5xl font-normal text-[#0B1B2B] leading-tight">
               {article.title}
             </h1>
-            <div className="flex flex-wrap items-center gap-4 text-xs text-[#526071] pt-2 border-t border-[#E2DAD0]">
+            <div className="flex flex-wrap items-center gap-4 text-xs text-[#2E384D] pt-2 border-t border-[#E2DAD0]">
               <span className="flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5 text-[#C89B3C]" />
                 <span>{article.date}</span>

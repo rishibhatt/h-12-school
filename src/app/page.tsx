@@ -41,7 +41,7 @@ export default function HomePage() {
                   ? 'सत्य, अनुसंधान एवं विचारशीलता का परिसर'
                   : 'Cultivating Discernment, Not Mere Compliance'}
               </h2>
-              <p className="text-sm sm:text-base text-[#526071] leading-relaxed">
+              <p className="text-sm sm:text-base text-[#2E384D] leading-relaxed">
                 {isHindi
                   ? 'एच-12 स्कूल में हम मानते हैं कि वास्तविक शिक्षा केवल परीक्षा उत्तीर्ण करने में नहीं, बल्कि स्वतंत्र सोच, तार्किक संवाद और वैज्ञानिक दृष्टिकोण विकसित करने में निहित है।'
                   : 'At H-12 School, scholarship begins with the courage to question. We replace passive rote learning with student-led laboratory trials, primary literature seminars, and community responsibility.'}
@@ -66,7 +66,7 @@ export default function HomePage() {
                     <h3 className="font-serif-display text-lg font-normal text-[#0B1B2B] mb-2">
                       {isHindi ? pillar.titleHi : pillar.title}
                     </h3>
-                    <p className="text-xs text-[#526071] leading-relaxed">
+                    <p className="text-xs text-[#2E384D] leading-relaxed">
                       {isHindi ? pillar.descriptionHi : pillar.description}
                     </p>
                   </div>
@@ -241,7 +241,7 @@ export default function HomePage() {
             <h2 className="font-serif-display text-3xl sm:text-5xl font-normal text-[#0B1B2B]">
               {isHindi ? 'अपनी पारिवारिक यात्रा आज ही आरंभ करें' : 'Begin Your Family’s Discovery Journey'}
             </h2>
-            <p className="text-sm sm:text-base text-[#526071] leading-relaxed">
+            <p className="text-sm sm:text-base text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'हमारा प्रवेश कार्यालय पारदर्शी, व्यक्तिगत और विचारशील प्रक्रिया में विश्वास करता है। ओपन मॉर्निंग के लिए पंजीकरण करें या अपनी ऑनलाइन पूछताछ दर्ज करें।'
                 : 'Admissions for prospective scholars are guided by mutual alignment and thoughtful dialogue. Submit an inquiry or schedule a private campus discovery walk.'}
@@ -254,7 +254,7 @@ export default function HomePage() {
                 {isHindi ? 'प्रशासन से संपर्क करें' : 'Contact Admissions Desk'}
               </Button>
             </div>
-            <p className="text-[11px] text-[#526071] italic pt-2">
+            <p className="text-[11px] text-[#2E384D] italic pt-2">
               {isHindi
                 ? 'एच-12 स्कूल एक काल्पनिक प्रदर्शन वेबसाइट है। पूछताछ स्थानीय रूप से सिम्युलेट की जाती है।'
                 : 'Illustrative demonstration: inquiries are validated and stored locally for portfolio review.'}
@@ -271,7 +271,7 @@ export default function HomePage() {
             <h2 className="font-serif-display text-3xl sm:text-4xl font-normal text-[#0B1B2B]">
               {isHindi ? 'अक्सर पूछे जाने वाले प्रश्न' : 'Frequently Asked Questions'}
             </h2>
-            <p className="text-xs sm:text-sm text-[#526071] max-w-lg mx-auto">
+            <p className="text-xs sm:text-sm text-[#2E384D] max-w-lg mx-auto">
               {isHindi
                 ? 'प्रवेश, कक्षा आकार और परिसर जीवन के संबंध में प्रमुख जानकारियां।'
                 : 'Practical information regarding admissions criteria, class ratios, and campus life.'}

@@ -42,7 +42,7 @@ export default function NewsPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'समाचार, परिपत्र एवं घोषणाएं' : 'Notices, Dispatches & Announcements'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'एच-12 स्कूल समुदाय के लिए महत्वपूर्ण तिथियां, शैक्षणिक परिपत्र और प्रशासनिक सूचनाएं।'
                 : 'Current updates regarding term schedules, admissions intakes, laboratory research milestones, and institutional dispatches.'}
@@ -68,7 +68,7 @@ export default function NewsPage() {
                     className={`px-3.5 py-1.5 text-xs font-semibold tracking-wider uppercase transition-colors cursor-pointer border ${
                       isActive
                         ? 'bg-[#0B1B2B] text-[#FAF7F2] border-[#0B1B2B]'
-                        : 'bg-[#FAF7F2] text-[#526071] border-[#E2DAD0] hover:border-[#0B1B2B]'
+                        : 'bg-[#FAF7F2] text-[#2E384D] border-[#E2DAD0] hover:border-[#0B1B2B]'
                     }`}
                   >
                     {cat}
@@ -86,7 +86,7 @@ export default function NewsPage() {
                 placeholder={isHindi ? 'खोजें...' : 'Search notices...'}
                 className="w-full pl-8 pr-3 py-1.5 text-xs bg-white border border-[#E2DAD0] focus:border-[#C89B3C] outline-none"
               />
-              <Search className="w-3.5 h-3.5 text-[#526071] absolute left-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+              <Search className="w-3.5 h-3.5 text-[#2E384D] absolute left-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>
           </div>
 
@@ -98,7 +98,7 @@ export default function NewsPage() {
               ))}
             </div>
           ) : (
-            <div className="py-16 text-center text-sm text-[#526071] bg-[#F3ECE2] border border-[#E2DAD0]">
+            <div className="py-16 text-center text-sm text-[#2E384D] bg-[#F3ECE2] border border-[#E2DAD0]">
               <p>{isHindi ? 'कोई सूचना नहीं मिली।' : 'No announcements matching your search criteria.'}</p>
             </div>
           )}

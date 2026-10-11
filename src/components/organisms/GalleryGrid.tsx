@@ -36,7 +36,7 @@ export function GalleryGrid({ photos, isHindi = false }: GalleryGridProps) {
               className={`px-4 py-1.5 text-xs font-semibold tracking-wider uppercase transition-colors cursor-pointer border ${
                 isActive
                   ? 'bg-[#0B1B2B] text-[#FAF7F2] border-[#0B1B2B]'
-                  : 'bg-[#FAF7F2] text-[#526071] border-[#E2DAD0] hover:border-[#0B1B2B]'
+                  : 'bg-[#FAF7F2] text-[#2E384D] border-[#E2DAD0] hover:border-[#0B1B2B]'
               }`}
             >
               {cat}
@@ -76,7 +76,7 @@ export function GalleryGrid({ photos, isHindi = false }: GalleryGridProps) {
               <h3 className="font-serif-display text-base font-normal text-[#0B1B2B] mb-1">
                 {isHindi ? photo.titleHi : photo.title}
               </h3>
-              <p className="text-xs text-[#526071] line-clamp-2">
+              <p className="text-xs text-[#2E384D] line-clamp-2">
                 {isHindi ? photo.captionHi : photo.caption}
               </p>
             </div>
@@ -126,7 +126,7 @@ export function GalleryGrid({ photos, isHindi = false }: GalleryGridProps) {
                 <h3 className="font-serif-display text-xl sm:text-2xl font-normal text-[#0B1B2B]">
                   {isHindi ? activePhoto.titleHi : activePhoto.title}
                 </h3>
-                <p className="text-xs text-[#526071] mt-1 max-w-2xl">
+                <p className="text-xs text-[#2E384D] mt-1 max-w-2xl">
                   {isHindi ? activePhoto.captionHi : activePhoto.caption}
                 </p>
               </div>

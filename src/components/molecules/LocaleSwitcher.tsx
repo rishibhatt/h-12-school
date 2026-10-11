@@ -24,7 +24,7 @@ export function LocaleSwitcher({ className = '', variant = 'dark' }: LocaleSwitc
 
   const inactiveStyles = isLight
     ? 'text-[#FAF7F2]/80 hover:bg-white/10'
-    : 'text-[#526071] hover:bg-[#F3ECE2]';
+    : 'text-[#2E384D] hover:bg-[#F3ECE2]';
 
   return (
     <div

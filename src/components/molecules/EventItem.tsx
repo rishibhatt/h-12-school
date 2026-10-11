@@ -23,28 +23,28 @@ export function EventItem({ event, isHindi = false }: EventItemProps) {
           <Badge variant={event.category === 'Open Day' ? 'gold' : 'subtle'}>
             {category}
           </Badge>
-          <span className="flex items-center gap-1 text-[#526071]">
+          <span className="flex items-center gap-1 text-[#2E384D]">
             <Calendar className="w-3.5 h-3.5 text-[#C89B3C]" />
             <span className="font-semibold text-[#0B1B2B]">{event.date}</span>
           </span>
-          <span className="text-[#526071]">· {event.time}</span>
+          <span className="text-[#2E384D]">· {event.time}</span>
         </div>
 
         <h3 className="font-serif-display text-xl font-normal text-[#0B1B2B]">
           {title}
         </h3>
 
-        <p className="text-xs text-[#526071] leading-relaxed">
+        <p className="text-xs text-[#2E384D] leading-relaxed">
           {description}
         </p>
 
-        <div className="flex flex-wrap items-center gap-4 text-xs text-[#526071] pt-1">
+        <div className="flex flex-wrap items-center gap-4 text-xs text-[#2E384D] pt-1">
           <span className="flex items-center gap-1.5">
-            <MapPin className="w-3 h-3 text-[#A8B3C0]" />
+            <MapPin className="w-3 h-3 text-[#2E384D]" />
             <span>{location}</span>
           </span>
           <span className="flex items-center gap-1.5">
-            <Users className="w-3 h-3 text-[#A8B3C0]" />
+            <Users className="w-3 h-3 text-[#2E384D]" />
             <span>{audience}</span>
           </span>
         </div>

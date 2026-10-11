@@ -16,7 +16,7 @@ export default function NotFound() {
             Page Not Located in the Archives
           </h1>
 
-          <p className="text-sm sm:text-base text-[#526071] leading-relaxed">
+          <p className="text-sm sm:text-base text-[#2E384D] leading-relaxed">
             The curriculum document, notice, or destination you requested does not exist or has been relocated to another academic wing.
           </p>
 
@@ -31,7 +31,7 @@ export default function NotFound() {
             </Button>
           </div>
 
-          <div className="pt-8 border-t border-[#E2DAD0] flex justify-center gap-6 text-xs text-[#526071]">
+          <div className="pt-8 border-t border-[#E2DAD0] flex justify-center gap-6 text-xs text-[#2E384D]">
             <Link href="/admissions" className="hover:text-[#0B1B2B]">
               Admissions
             </Link>

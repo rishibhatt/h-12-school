@@ -30,7 +30,7 @@ export default function AcademicsPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'अनुशासित अध्ययन एवं निरंतर प्रगति' : 'A Structured Continuum from Discovery to Defense'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'किंडरगार्टन से कक्षा 12 तक हमारा पाठ्यक्रम जिज्ञासा को अनुशासित विश्लेषण और शोध में बदलता है।'
                 : 'Our academic continuum bridges experiential wonder in the early years with rigorous analytical debate in middle school and university-caliber capstone research in senior years.'}
@@ -49,7 +49,7 @@ export default function AcademicsPage() {
             <h2 className="font-serif-display text-3xl sm:text-4xl font-normal text-[#0B1B2B]">
               {isHindi ? 'आयु-अनुकूल शैक्षणिक पद्धतियाँ' : 'Progressive Pedagogy Across Developmental Eras'}
             </h2>
-            <p className="text-xs sm:text-sm text-[#526071]">
+            <p className="text-xs sm:text-sm text-[#2E384D]">
               {isHindi
                 ? 'प्रत्येक चरण का अपना विशिष्ट वातावरण और संकाय है जो छात्र की आयु अनुसार श्रेष्ठ शिक्षण प्रदान करता है।'
                 : 'Each division possesses dedicated laboratory wings, tailored reading archives, and specialized educators.'}

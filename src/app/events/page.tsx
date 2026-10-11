@@ -36,7 +36,7 @@ export default function EventsPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'परिसर कार्यक्रम एवं ओपन डे' : 'Open Mornings, Colloquia & Exhibitions'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'इच्छुक परिवारों के लिए ओपन मॉर्निंग तिथियां, छात्र वाद-विवाद प्रतियोगिताएं और कला प्रदर्शनियां।'
                 : 'Schedule of upcoming campus tours for prospective families, inter-house debates, student symposia, and athletic meets.'}
@@ -60,7 +60,7 @@ export default function EventsPage() {
                   className={`px-4 py-1.5 text-xs font-semibold tracking-wider uppercase transition-colors cursor-pointer border ${
                     isActive
                       ? 'bg-[#0B1B2B] text-[#FAF7F2] border-[#0B1B2B]'
-                      : 'bg-[#FAF7F2] text-[#526071] border-[#E2DAD0] hover:border-[#0B1B2B]'
+                      : 'bg-[#FAF7F2] text-[#2E384D] border-[#E2DAD0] hover:border-[#0B1B2B]'
                   }`}
                 >
                   {cat}

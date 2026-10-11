@@ -64,7 +64,7 @@ export default function ContactPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {isHindi ? 'संपर्क एवं दिशा-निर्देश' : 'Get in Touch with Our Offices'}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {isHindi
                 ? 'प्रवेश पूछताछ, परिसर भ्रमण और सामान्य प्रशासनिक सहायता के लिए हमारे कार्यालयों से संपर्क करें।'
                 : 'Direct channels for prospective admissions, student records, transport logistics, and campus discovery walk scheduling.'}
@@ -83,7 +83,7 @@ export default function ContactPage() {
                 <h2 className="font-serif-display text-2xl sm:text-3xl font-normal text-[#0B1B2B] mb-2">
                   {isHindi ? 'विभागीय दूरभाष निर्देशिका' : 'Key Department Contacts'}
                 </h2>
-                <p className="text-xs text-[#526071]">
+                <p className="text-xs text-[#2E384D]">
                   {isHindi
                     ? 'त्वरित सहायता हेतु संबंधित विभाग से संपर्क करें।'
                     : 'Reach the appropriate team for admissions, transcripts, or campus tours.'}
@@ -99,7 +99,7 @@ export default function ContactPage() {
                     <h3 className="font-serif-display text-lg font-normal text-[#0B1B2B]">
                       {isHindi ? dept.titleHi : dept.title}
                     </h3>
-                    <div className="space-y-1 text-[#526071]">
+                    <div className="space-y-1 text-[#2E384D]">
                       <p className="flex items-center gap-2">
                         <Mail className="w-3.5 h-3.5 text-[#C89B3C]" />
                         <span>{dept.email}</span>
@@ -118,7 +118,7 @@ export default function ContactPage() {
               </div>
 
               {/* Campus Address & Fictional Disclosure */}
-              <div className="p-6 bg-[#F3ECE2] border border-[#E2DAD0] space-y-3 text-xs text-[#526071]">
+              <div className="p-6 bg-[#F3ECE2] border border-[#E2DAD0] space-y-3 text-xs text-[#2E384D]">
                 <div className="flex items-center gap-2 text-[#0B1B2B] font-semibold">
                   <MapPin className="w-4 h-4 text-[#C89B3C]" />
                   <span>{isHindi ? 'परिसर का पता (काल्पनिक)' : 'Campus Location (Demonstration)'}</span>
@@ -127,7 +127,7 @@ export default function ContactPage() {
                   {siteConfig.address.street}, {siteConfig.address.city},{' '}
                   {siteConfig.address.state} — {siteConfig.address.postalCode}
                 </p>
-                <p className="text-[11px] text-[#526071] italic border-t border-[#E2DAD0] pt-2">
+                <p className="text-[11px] text-[#2E384D] italic border-t border-[#E2DAD0] pt-2">
                   {siteConfig.address.note}
                 </p>
               </div>
@@ -140,7 +140,7 @@ export default function ContactPage() {
                   <h3 className="font-serif-display text-2xl font-normal text-[#0B1B2B]">
                     {isHindi ? 'सामान्य संदेश प्रपत्र' : 'Send General Inquiries'}
                   </h3>
-                  <p className="text-xs text-[#526071] mt-1">
+                  <p className="text-xs text-[#2E384D] mt-1">
                     {isHindi
                       ? 'किसी भी सामान्य प्रश्न हेतु संदेश भेजें।'
                       : 'For general questions not related to student admissions intake.'}
@@ -153,7 +153,7 @@ export default function ContactPage() {
                       <CheckCircle2 className="w-5 h-5 text-[#2D5547]" />
                       <span>{isHindi ? 'संदेश प्राप्त हुआ' : 'Message Dispatched (Demo)'}</span>
                     </div>
-                    <p className="text-xs text-[#526071] leading-relaxed">
+                    <p className="text-xs text-[#2E384D] leading-relaxed">
                       {isHindi
                         ? 'यह एक पोर्टफोलियो प्रदर्शन है। आपका संदेश सिम्युलेटेड रूप से दर्ज किया गया है।'
                         : 'Demonstration simulation: In production, this delivers directly to the administrative inbox.'}

@@ -65,7 +65,7 @@ export default function AdmissionsPage() {
             <h1 className="font-serif-display text-4xl sm:text-6xl font-normal text-[#0B1B2B]">
               {t.title}
             </h1>
-            <p className="text-base sm:text-lg text-[#526071] leading-relaxed">
+            <p className="text-base sm:text-lg text-[#2E384D] leading-relaxed">
               {t.subtitle}
             </p>
           </div>
@@ -100,7 +100,7 @@ export default function AdmissionsPage() {
                         <h3 className="font-serif-display text-lg font-normal text-[#0B1B2B] mb-2">
                           {step.title}
                         </h3>
-                        <p className="text-xs text-[#526071] leading-relaxed">
+                        <p className="text-xs text-[#2E384D] leading-relaxed">
                           {step.desc}
                         </p>
                       </div>
@@ -131,7 +131,7 @@ export default function AdmissionsPage() {
                         <h4 className="text-sm font-semibold text-[#0B1B2B]">
                           {isHindi ? item.titleHi : item.title}
                         </h4>
-                        <p className="text-xs text-[#526071] mt-0.5">
+                        <p className="text-xs text-[#2E384D] mt-0.5">
                           {isHindi ? item.descHi : item.desc}
                         </p>
                       </div>
@@ -141,7 +141,7 @@ export default function AdmissionsPage() {
               </div>
 
               {/* Fictional Caution Notice */}
-              <div className="p-4 bg-[#F3ECE2] border border-[#E2DAD0] flex items-start gap-3 text-xs text-[#526071]">
+              <div className="p-4 bg-[#F3ECE2] border border-[#E2DAD0] flex items-start gap-3 text-xs text-[#2E384D]">
                 <ShieldAlert className="w-5 h-5 text-[#C89B3C] shrink-0 mt-0.5" />
                 <p className="leading-relaxed">
                   <strong>{isHindi ? 'काल्पनिक विद्यालय सूचना: ' : 'Demonstration Notice: '}</strong>
@@ -165,7 +165,7 @@ export default function AdmissionsPage() {
             <h2 className="font-serif-display text-3xl font-normal text-[#0B1B2B]">
               {isHindi ? 'प्रवेश संबंधी सामान्य प्रश्न' : 'Admissions Questions & Answers'}
             </h2>
-            <p className="text-xs text-[#526071]">
+            <p className="text-xs text-[#2E384D]">
               {isHindi
                 ? 'प्रवेश समीक्षा, आयु पात्रता और समय-सारणी के संबंध में मार्गदर्शन।'
                 : 'Key details regarding eligibility, assessment format, and notification timelines.'}

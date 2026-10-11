@@ -101,11 +101,11 @@ export function InquiryForm({ initialStage = '', className = '' }: InquiryFormPr
           <p className="font-mono text-lg font-bold text-[#0B1B2B]">{referenceCode}</p>
         </div>
 
-        <p className="text-sm text-[#526071] leading-relaxed">
+        <p className="text-sm text-[#2E384D] leading-relaxed">
           {t.successMessage}
         </p>
 
-        <p className="text-xs text-[#526071]/80 italic border-t border-[#E2DAD0] pt-4">
+        <p className="text-xs text-[#2E384D]/80 italic border-t border-[#E2DAD0] pt-4">
           {serverMessage}
         </p>
 
@@ -129,7 +129,7 @@ export function InquiryForm({ initialStage = '', className = '' }: InquiryFormPr
         <h3 className="font-serif-display text-2xl font-normal text-[#0B1B2B]">
           {t.formTitle}
         </h3>
-        <p className="text-xs text-[#526071] mt-1 leading-relaxed">
+        <p className="text-xs text-[#2E384D] mt-1 leading-relaxed">
           {t.formSubtitle}
         </p>
       </div>
@@ -273,7 +273,7 @@ export function InquiryForm({ initialStage = '', className = '' }: InquiryFormPr
       </div>
 
       {/* Demo Privacy Guarantee */}
-      <div className="p-3 bg-[#F3ECE2] border border-[#E2DAD0] text-[11px] text-[#526071] flex items-start gap-2">
+      <div className="p-3 bg-[#F3ECE2] border border-[#E2DAD0] text-[11px] text-[#2E384D] flex items-start gap-2">
         <ShieldCheck className="w-4 h-4 text-[#2D5547] shrink-0 mt-0.5" />
         <span>
           {isHindi

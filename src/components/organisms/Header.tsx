@@ -88,24 +88,24 @@ export function Header() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 flex items-center justify-between gap-6">
           <Logo />
 
-          {/* Desktop Navigation Links */}
-          <div className="hidden lg:flex items-center gap-6 xl:gap-8">
+          {/* Desktop Navigation Links (Clean spacing on xl screens) */}
+          <div className="hidden xl:flex items-center gap-4 2xl:gap-6">
             {navItems.map((item) => (
-              <NavLink key={item.href} href={item.href}>
+              <NavLink key={item.href} href={item.href} className="text-xs 2xl:text-sm">
                 {item.label}
               </NavLink>
             ))}
           </div>
 
           {/* Right Action Elements */}
-          <div className="hidden lg:flex items-center gap-4">
-            <Button href="/admissions" variant="primary" size="sm">
+          <div className="hidden xl:flex items-center gap-3">
+            <Button href="/admissions" variant="primary" size="sm" className="text-xs">
               {t.inquireNow}
             </Button>
           </div>
 
-          {/* Mobile Menu Toggle Button */}
-          <div className="flex items-center gap-2 lg:hidden">
+          {/* Mobile & Tablet Menu Toggle Button */}
+          <div className="flex items-center gap-2 xl:hidden">
             <LocaleSwitcher variant="dark" />
             <button
               type="button"
@@ -119,20 +119,40 @@ export function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation Drawer */}
+        {/* Mobile & Tablet Navigation Drawer */}
         {mobileMenuOpen && (
-          <div className="lg:hidden fixed inset-x-0 top-full bg-[#FAF7F2] border-b border-[#E2DAD0] shadow-lg max-h-[calc(100vh-100px)] overflow-y-auto p-6 transition-all">
-            <div className="flex flex-col space-y-3 pb-6 border-b border-[#E2DAD0]">
-              {navItems.map((item) => (
-                <NavLink
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-base py-2"
-                >
-                  {item.label}
-                </NavLink>
-              ))}
+          <div className="xl:hidden fixed inset-x-0 top-full bg-[#FAF7F2] border-b border-[#E2DAD0] shadow-xl max-h-[calc(100vh-100px)] overflow-y-auto p-6 transition-all">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-6 border-b border-[#E2DAD0]">
+              <div className="space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#C89B3C] block mb-2">
+                  {isHindi ? 'शिक्षा व रूपरेखा' : 'Academics & Strategy'}
+                </span>
+                {navItems.slice(0, 5).map((item) => (
+                  <NavLink
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-base py-1.5 block"
+                  >
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
+              <div className="space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#C89B3C] block mb-2">
+                  {isHindi ? 'परिसर व समुदाय' : 'Campus & Community'}
+                </span>
+                {navItems.slice(5).map((item) => (
+                  <NavLink
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-base py-1.5 block"
+                  >
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
             </div>
 
             <div className="pt-6 flex flex-col gap-3">
@@ -140,12 +160,12 @@ export function Header() {
                 href="/admissions"
                 variant="primary"
                 size="md"
-                className="w-full justify-center"
+                className="w-full justify-center text-sm"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {t.inquireNow}
               </Button>
-              <p className="text-[11px] text-[#526071] text-center italic">
+              <p className="text-[11px] text-[#334155] text-center italic">
                 {dictionary.common.demoNote}
               </p>
             </div>

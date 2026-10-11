@@ -10,7 +10,7 @@ export function Badge({ children, className, variant = 'subtle', ...props }: Bad
     gold: 'bg-[#F7EEDB] text-[#7A5B1B] border-[#C89B3C]/30',
     navy: 'bg-[#0B1B2B] text-[#FAF7F2] border-[#0B1B2B]',
     botanical: 'bg-[#EBF2EE] text-[#2D5547] border-[#2D5547]/30',
-    subtle: 'bg-[#F3ECE2] text-[#526071] border-[#E2DAD0]',
+    subtle: 'bg-[#F3ECE2] text-[#2E384D] border-[#E2DAD0]',
   };
 
   return (

@@ -31,12 +31,12 @@ export function NoticeCard({ article, isHindi = false }: NoticeCardProps) {
         </div>
       )}
 
-      <div className="flex items-center justify-between gap-3 text-xs text-[#526071] mb-3">
+      <div className="flex items-center justify-between gap-3 text-xs text-[#2E384D] mb-3">
         <Badge variant={article.category === 'Admissions' ? 'gold' : 'subtle'}>
           {category}
         </Badge>
         <span className="flex items-center gap-1">
-          <Clock className="w-3 h-3 text-[#A8B3C0]" />
+          <Clock className="w-3 h-3 text-[#2E384D]" />
           <span>{dateFormatted}</span>
         </span>
       </div>
@@ -45,7 +45,7 @@ export function NoticeCard({ article, isHindi = false }: NoticeCardProps) {
         <Link href={`/news/${article.slug}`}>{title}</Link>
       </h3>
 
-      <p className="text-xs text-[#526071] leading-relaxed mb-5 flex-grow line-clamp-3">
+      <p className="text-xs text-[#2E384D] leading-relaxed mb-5 flex-grow line-clamp-3">
         {summary}
       </p>
 
