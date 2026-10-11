@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#0B1B2B"/>
+  <!-- Architectural Chevron Accent -->
+  <path d="M16 4 L26 11 L16 18 L6 11 Z" fill="none" stroke="#C89B3C" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="16" cy="11" r="2" fill="#C89B3C"/>
+  <!-- H-12 Monogram -->
+  <text x="16" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#FAF7F2" text-anchor="middle" letter-spacing="-0.5">H12</text>
+</svg>
